@@ -3,5 +3,5 @@ l2 = ["y","me","s","Ram"]
 l = []
 print(list(zip(l1,l2)))
 for i in range(len(l1)):
-	l( l1[i]+l2[i])
+	l.append( l1[i]+l2[i])
 print(l)
