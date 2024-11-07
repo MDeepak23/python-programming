@@ -86,7 +86,7 @@ def gcd(a,b):
     if b==0:
         return a
     else:
-        return gcd(a,b%a)
+        return gcd(b,b%a)
 print(gcd(6,12)) '''
 
                               #SET 6
